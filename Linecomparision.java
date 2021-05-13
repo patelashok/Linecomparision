@@ -20,6 +20,12 @@ public class Linecomparision {
 
   	    double length2 = Math.sqrt(Math.pow((a2-a1),2)+Math.pow((b2-b1),2));
   	    System.out.println(" Length of line 2 is : " + length2);
+	    
+	    if (length1==length2)
+		System.out.println("Two line are Equal");
+	    else
+		System.out.println("TWo lines are not Equal");
 
+	
 	}
 }
